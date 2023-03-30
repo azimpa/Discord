@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.firstpage {
+    background-color: rgb(76, 76, 231);
+    width: 100%;
+    height: 630px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.logo img {
+    width: 120px;
+    height: 25px;
+    padding-top: 23px;
+    padding-left: 250px;
+}
+
+.navbutton {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 34px;
+    padding-top: 15px;
+    padding-left: 180px;
+}
+
+.navbutton a {
+    padding-left: 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.login button {
+    margin-left: 320px;
+    margin-top: 20px;
+    padding: 7px 16px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+}
+
+.main img {
+    margin-top: 154px;
+    width: 100%;
+    height: 100%;
+}
+
+.firstimage img {
+    width: 600px;
+    height: 448px;
+    position: absolute;
+    left: -200px;
+    top: 100px;
+}
+
+.maincontent {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    padding-left: 450px;
+}
+
+.maincontent h1 {
+    font-size: 60px;
+    font-weight: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.maincontent p {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.one {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.two {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.secondimage img {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: -200px;
+    top: 100px;
+}
+
+.secondpage {
+    background-color: #fff;
+    width: 100%;
+    height: 630px;
+    display: flex;
+}
+
+.secondpage img {
+    padding-top: 120px;
+    margin-left: 200px;
+    height: 500px;
+    width: 680px;
+    background-size: cover;
+}
+
+.secondpage h1 {
+    color: black;
+    padding-top: 170px;
+    padding-left: 100px;
+    font-size: 35px;
+    line-height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondpage p {
+    color: black;
+    padding-top: 4px;
+    padding-left: 100px;
+    font-size: clamp(18px, 2vw, 20px);
+    line-height: 1.625;
+}
+
+.thirdpage {
+    background-color: aliceblue;
+    width: 100%;
+    height: 630px;
+    display: flex;
+}
+
+.thirdpage img {
+    padding-top: 120px;
+    padding-left: 160px;
+    height: 450px;
+    width: 650px;
+    background-size: cover;
+}
+
+.thirdpage h1 {
+    color: black;
+    padding-top: 200px;
+    padding-left: 250px;
+    font-size: 35px;
+    line-height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thirdpage p {
+    color: black;
+    padding-top: 4px;
+    padding-left: 250px;
+    font-size: clamp(18px, 2vw, 20px);
+    line-height: 1.625;
+}
+
+
+.fourthpage {
+    background-color: #fff;
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+
+.fourthpage img {
+    padding-top: 120px;
+    padding-left: 180px;
+    height: 450px;
+    width: 650px;
+    background-size: cover;
+}
+
+.fourthpage h1 {
+    color: black;
+    padding-top: 190px;
+    padding-left: 100px;
+    font-size: 35px;
+    line-height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fourthpage p {
+    color: black;
+    padding-top: 4px;
+    padding-left: 100px;
+    font-size: clamp(18px, 2vw, 20px);
+    line-height: 1.625;
+}
+
+.fifthpage {
+    background-color: aliceblue;
+    width: 100%;
+    height: 1150px;
+}
+
+.fifthpage h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+.fifthpage p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.fifthpage .fifthsub {
+    padding-left: 300px;
+    height: 600px;
+    width: 1000px;
+    background-size: cover;
+}
+
+.fifthpage .fifthbus {
+    padding-left: 500px;
+    padding-top: 5px;
+}
+
+.fifthpage h2 {
+    padding-left: 527px;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fifthpage button {
+    margin-left: 610px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: royalblue;
+    color: #fff;
+}
+
+/*------footer------*/
+.foot {
+    background: #23272A;
+    height: 500px;
+}
+
+.Imagine {
+    height: 500px;
+    width: 500px;
+}
+
+.Imagine h1 {
+    padding-top: 30px;
+    padding-left: 170px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #5865f2;
+}
+
+.Imagine img {
+    padding-left: 170px;
+    width: 25px;
+}
+
+.englishus {
+    background: #23272A;
+    border: none;
+    color: #fff;
+}
+
+.Imagine .fbimg {
+    padding-left: 160px;
+    width: 200px;
+}
+
+.tables {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.tables td {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 100px;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tables .POL{
+    color: #5865f2;
+}
+
+.footercontent {
+    width: 100%;
+    height: 350px;
+    display: flex
+}
+
+hr {
+    width: 76%;
+    margin-left: 10%;
+    color: #5865f2;
+    height: 1px;
+    border: 0;
+    background: #5865f2;
+    margin-top: 40px;
+}
+.lastlogsignin img {
+    width: 120px;
+    height: 25px;
+    padding-top: 23px;
+    padding-left: 160px;
+}
+.lastlogsignin button {
+    margin-left: 1000px;
+    padding: 10px 16px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    background: #5865f2;
+    color: #fff;
+}
